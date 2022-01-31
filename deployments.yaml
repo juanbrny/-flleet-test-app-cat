@@ -11,6 +11,7 @@ spec:
   selector:
     matchLabels:
       app: app-cat
+  template:    
     metadata:
       labels:
         app: app-cat
